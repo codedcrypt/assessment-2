@@ -1,10 +1,10 @@
 import React from 'react'
 
-const output = () => {
+const output = (props) => {
   return (
     <div className='no'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptates libero harum tempora dicta sapiente repudiandae, </p>
-        <p>nulla modi consequuntur alias est fuga possimus ad, reprehenderit culpa! Cum aliquam ex asperiores.</p>
+        <p>my name is {props.username} and i am an afro-pop musician </p>
+        <p>my name is {props.username} and i am an afro-pop musician</p>
     
     </div>
   )
