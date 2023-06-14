@@ -1,7 +1,7 @@
-import React,{ useState} from 'react'
+import React,{useState} from 'react'
 import Output from './component/output'
 import Input from './component/input'
-import "./App.css"
+import './App.css'
 
 function App() {
   const [username, setUsername] = useState("james")
