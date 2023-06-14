@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useState} from 'react'
 import Output from './component/output'
 import Input from './component/input'
 
