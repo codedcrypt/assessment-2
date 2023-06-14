@@ -1,8 +1,10 @@
 import React from 'react'
 
-const input = () => {
+const input = (props) => {
   return (
-    <div className='yes' > <input type="text" placeholder='Enter Your Text Here......' /></div>
+    <div className='yes' >
+       <input type="text" placeholder='Enter Your Text Here......' onChange={props.change} />
+       </div>
   )
 }
 
